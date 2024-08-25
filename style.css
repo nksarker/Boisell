@@ -1,0 +1,416 @@
+body{
+    display: block;
+    background: #fff8f7;
+    color: rgb(80, 80, 80);
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background: #264653;
+}
+.header{
+    margin-top: 1rem 0;
+    color: #264653;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.fa{
+    height: 16px;
+    width: 16px;
+}
+.total-post{
+    margin: 1rem 0;
+    padding: 1rem 0;
+    background: khaki;
+    color: #264653;
+    font-weight: bold;
+    font-size: 1.2rem
+}
+.total-amount{
+    font-size: 1.2rem;
+    margin: 2rem 0; 
+    color: white;
+}
+
+
+/* HOME
+***************************************************** */
+
+.carousel{
+    margin-bottom: 2rem;
+    z-index: 200;
+}
+
+.carousel-item{
+    height: 16rem;
+}
+
+.carousel-item img{
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    position: absolute;
+    height: 16rem;
+}
+.imgFilter{
+    filter: brightness(0.8);
+}
+
+
+
+
+/* PROFILE 
+************************************* */
+
+.profile-img-container {
+    margin-top: -4rem;
+
+}
+.profile-img {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    
+    border: 4px solid transparent;
+    background: 
+        linear-gradient(to right, #fff8f7, #fff8f7), 
+        linear-gradient(45deg, khaki, #fc00ff); 
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+}
+.profile-bg{
+    height: 9rem;
+    background: linear-gradient(15deg, #f46b45, khaki);
+    border-radius: 0 0 50% 50%;
+}
+.profile-text {
+    color: #264653;
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+.profile-details{
+    margin-left: auto;
+    margin-right: auto; 
+    width: fit-content;
+  padding: 2rem;
+border-radius: 1rem;
+  border: 4px solid transparent;
+    background: 
+        linear-gradient(to right, #fff8f7, #fff8f7), 
+        linear-gradient(45deg, khaki, #fc00ff); 
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+}
+
+
+
+/* Modal 
+************************************************************************ */
+
+
+.modal-header{
+    background: linear-gradient(to left, #f46b45, khaki);
+}
+.modal-title{
+    color: rgb(38, 70, 83);
+}
+.modal-content{
+    background-color: #fff8f7;
+    border: none;
+}
+.btn{
+    background: linear-gradient(45deg, #f46b45, khaki);
+    border: none;
+    color: #264653;
+}
+.btn-sm{
+    color: #fff;
+    background: #264653;
+}
+.btn:hover{
+    background: linear-gradient(45deg, #f46b45, khaki, khaki, khaki, khaki, khaki);
+    color: #264653;
+}
+
+
+
+/* FOOTER 
+*********************************** */
+
+footer{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-top: 4px solid transparent;
+    background: 
+        linear-gradient(to right, #264653, #264653), 
+        linear-gradient(45deg, khaki ,#fc00ff); 
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+}
+footer .total-amount{
+    margin: 1rem 0;
+}
+footer a,
+nav ul a{
+    color: rgba(229, 229, 250,0.5);
+}
+footer a:hover,
+nav a:hover{
+    color: rgba(229, 229, 250,0.8);
+    text-decoration: none;
+}
+
+
+
+/* POST 
+******************************************************* */
+
+.price{
+    width: 3rem;
+    background: khaki;
+    color: rgb(38, 70, 83);
+    display: flex;
+    font-weight: bolder;
+    justify-content: center;
+}
+.post-user-image{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    background: 
+        linear-gradient(to right, white, white), 
+        linear-gradient(-120deg, khaki, #fc00ff); 
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+}
+.inline-list-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.inline-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.inline-list a{
+    padding-left: 2rem; 
+    padding-right: 2rem;
+}
+.post-bg{
+    background: #F0F2F5;
+    border: none;
+    margin-bottom: -5rem;
+}
+.card-li{
+    margin: 1rem 2rem;
+}
+.post-head{
+    margin: 0.5rem 0.5rem;
+}
+.post-footer{
+    margin: 0.5rem 0;
+}
+.post-user-name:hover{
+    text-decoration: none;
+    opacity: 90%;
+    color: #264653;
+}
+.page-link{
+    color: #264653;
+}
+/* ORDER
+************************************************************************ */
+
+
+
+
+
+/* RESPONSIVE */
+/* **************************************************************************************** */
+
+@media screen and (max-width: 600.4px){
+    /* .profile-img{
+        height: 5rem;
+        width: 5rem;
+    } */
+    .carousel-caption{
+        font-size: 1rem;
+        color: khaki;
+        text-shadow: 2px 2px 2px #264653;
+    }
+    .post-image{
+        width: 200px;
+        height: auto;
+    }
+    .btn-md{
+        font-size: 0.4rem;
+    }
+    .profile-text i{
+        font-size: 1rem;
+    }
+    .profile-text label{
+        font-size: 1rem;
+        margin-left: 0.8rem;
+    }
+    .collapse{
+        display: none;
+    }
+    .post-user{
+        width: 6rem;
+        margin-left: 1rem;
+    }
+    .post-user-name{
+        margin-bottom: 0.1rem;
+        font-size: 0.75rem;
+        color: #264653;
+        font-weight: bolder;
+    }
+    .post-user-dept{
+        font-size: 0.7rem;
+        color: rgba(38, 70, 83, 0.7);
+    }
+    .post-subject{
+        margin: 0.5rem;
+        font-size: 0.7rem;
+        font-weight: 600;
+        color: #264653;
+    }
+    .post-main{
+        text-align: justify;
+        padding: 0 0.5rem 0.5rem 0.5rem;
+        font-size: 0.7rem;
+        max-width: 200px;
+        line-height: 1rem;
+    }
+   
+    .price{
+        width: 2.5rem;
+        font-size: 70%;
+    }
+    .post-user-image{
+        height: 25px;
+        width: 25px;
+    }
+    .page-link{
+        font-size: 50%;
+    }
+}
+
+
+@media (min-width: 600.5px) and (max-width: 767.4px){   
+    /* .profile-img{
+        height: 8rem;
+        width: 8rem;
+    } */
+    .carousel-caption{
+        font-size: 1.5rem;
+        color: khaki;
+        text-shadow: 2px 2px 2px #264653;
+    }
+    .post-image{
+        width: 250px;
+        height: auto;
+    }
+    .collapse{
+        display: none;
+    }
+    .btn-md{
+        font-size: 0.5rem;
+    }
+    .profile-text i{
+        font-size: 1rem;
+    }
+    .profile-text label{
+        font-size: 1rem;
+        margin-left: 0.8rem;
+    }
+    .post-user{
+        width: 8rem;
+        margin-left: 1rem;
+    }
+    .post-user-name{
+        margin-bottom: 0.1rem;
+        font-size: 0.9rem;
+        color: #264653;
+        font-weight: bolder;
+    }
+    .post-user-dept{
+        font-size: 0.75rem;
+        color: rgba(38, 70, 83, 0.7);
+    }
+    .post-subject{
+        margin: 0.5rem;
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: #264653;
+    }
+    .post-main{
+        text-align: justify;
+        padding: 0 0.5rem 0.5rem 0.5rem;
+        font-size: 0.75rem;
+        max-width: 250px;
+        line-height: 1rem;
+    }
+    .page-link{
+        font-size: 80%;
+    }
+}
+
+
+@media (min-width: 767.5px){   
+    /* .profile-img{
+        height: 8rem;
+        width: 8rem;
+    } */
+    
+    .carousel-caption{
+        font-size: 2rem;
+        color: khaki;
+        text-shadow: 2px 2px 2px #264653;
+    }
+    .post-image{
+        width: 350px;
+        height: auto;
+    }
+    .btn-md{
+        font-size: 0.7rem;
+    }
+    .profile-text i{
+        font-size: 1.2rem;
+    }
+    .profile-text label{
+        font-size: 1.2rem;
+        margin-left: 1rem;
+    }
+    .post-user{
+        width: 13rem;
+    }
+    .post-user-name{
+        margin-bottom: 0.1rem;
+        font-size: 0.9rem;
+        color: #264653;
+        font-weight: bolder;
+    }
+    .post-user-dept{
+        font-size: 0.75rem;
+        color: rgba(38, 70, 83, 0.7);
+    }
+    .post-subject{
+        margin: 0.5rem;
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: #264653;
+    }
+    .post-main{
+        text-align: justify;
+        padding: 0 0.5rem 0.5rem 0.5rem;
+        font-size: 0.75rem;
+        max-width: 350px;
+        line-height: 1rem;
+    }
+}
